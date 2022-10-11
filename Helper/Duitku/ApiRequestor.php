@@ -1,4 +1,5 @@
 <?php
+namespace Duitku\Vamaybank\Helper\Duitku;
 
 class Duitku_Vamaybank_ApiRequestor {
 

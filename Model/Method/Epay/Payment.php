@@ -177,7 +177,7 @@ class Payment extends \Duitku\Vamaybank\Model\Method\AbstractPayment
 		
 		$params = array(
              'merchantCode' => $merchantcode,
-             'paymentAmount' => $paymentAmount,
+             'paymentAmount' => $amount,
              'paymentMethod' => 'VA',
 			 'merchantOrderId' =>$orderId,
              'productDetails' => 'Order : '.$orderId,
