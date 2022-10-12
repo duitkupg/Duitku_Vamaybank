@@ -14,10 +14,10 @@
  */
 
 namespace Duitku\Vamaybank\Helper;
-// include_once('Duitku/ApiRequestor.php');
-// include_once('Duitku/DuitkuCore.php');
+include_once('Duitku/ApiRequestor.php');
+include_once('Duitku/DuitkuCore.php');
 use Duitku\Vamaybank\Helper\DuitkuConstants;
-use Duitku\Vamaybank\Helper\Duitku\Duitku_Vamaybank_Core;
+use Duitku_Vamaybank_Core;
 class Data extends \Magento\Framework\App\Helper\AbstractHelper
 {
     /**

@@ -1,7 +1,5 @@
 <?php
-namespace Duitku\Vamaybank\Helper\Duitku;
-// include_once('ApiRequestor.php');
-use Duitku\Vamaybank\Helper\Duitku\Duitku_Vamaybank_ApiRequestor;
+include_once('ApiRequestor.php');
 class Duitku_Vamaybank_Core {
 
   public static function getRedirectionUrl($baseUrl, $params)
